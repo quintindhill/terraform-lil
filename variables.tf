@@ -34,3 +34,7 @@ variable "DBSize" {
 variable "BootStrapFile" {
     default = "./userdata/bootstrap"
 }
+variable subscription_id {}
+variable client_id {}
+variable client_secret {}
+variable tenant_id {}

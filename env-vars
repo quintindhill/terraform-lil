@@ -1,4 +1,4 @@
-### Authentication details
+### OCI Authentication details
 export TF_VAR_tenancy_ocid="ocid1.tenancy.oc1..aaaaaaaa3fio3zos5an6faapdmtm6rx3n3j25f7lhelfrvlaspmywr67v56q"
 export TF_VAR_user_ocid="ocid1.user.oc1..aaaaaaaabjlgte2w6jzqxykfl36kdwra5fpy57nfy3cmn62v4iinly4ap6sq"
 export TF_VAR_fingerprint="3f:8d:6d:62:de:33:93:74:b9:ce:3b:75:37:34:6a:88"
@@ -16,3 +16,9 @@ export TF_VAR_ssh_public_key=$(cat /Users/qhill/key/ssh/id_rsa.pub)
 export TF_VAR_ssh_private_key=$(cat /Users/qhill/key/ssh/id_rsa)
 ## NOTE: These are not your api keys. More info on the right keys see
 ## https://docs.us-phoenix-1.oraclecloud.com/Content/Compute/Tasks/managingkeypairs.htm
+
+##Microsoft Authentication details
+export TF_VAR_subscription_id="a798c785-fea1-4de7-b34b-8535d14fa670"
+export TF_VAR_client_id="4bd29d88-4e3d-4026-a446-0bc381f4663a"
+export TF_VAR_client_secret="bb0ff604-eeab-4747-8eac-e4205a4c911b"
+export TF_VAR_tenant_id="041fedc3-e139-4a88-95f9-4a0c39184510"
