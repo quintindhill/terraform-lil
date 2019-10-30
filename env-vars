@@ -1,0 +1,18 @@
+### Authentication details
+export TF_VAR_tenancy_ocid="ocid1.tenancy.oc1..aaaaaaaa3fio3zos5an6faapdmtm6rx3n3j25f7lhelfrvlaspmywr67v56q"
+export TF_VAR_user_ocid="ocid1.user.oc1..aaaaaaaabjlgte2w6jzqxykfl36kdwra5fpy57nfy3cmn62v4iinly4ap6sq"
+export TF_VAR_fingerprint="3f:8d:6d:62:de:33:93:74:b9:ce:3b:75:37:34:6a:88"
+export TF_VAR_private_key_path="/Users/qhill/.oci/oci_api_key.pem"
+export TF_VAR_private_key_password="30261316sss"
+
+### Region
+export TF_VAR_region=us-phoenix-1
+
+### Compartment
+export TF_VAR_compartment_ocid="ocid1.compartment.oc1..aaaaaaaac42rsv2gtqidxsjrkehahioq53qvvj7stvxbr7jqu23juczkduoq"
+
+### Public/private keys used on the instance
+export TF_VAR_ssh_public_key=$(cat /Users/qhill/key/ssh/id_rsa.pub)
+export TF_VAR_ssh_private_key=$(cat /Users/qhill/key/ssh/id_rsa)
+## NOTE: These are not your api keys. More info on the right keys see
+## https://docs.us-phoenix-1.oraclecloud.com/Content/Compute/Tasks/managingkeypairs.htm
